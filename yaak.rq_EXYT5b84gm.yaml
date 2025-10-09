@@ -1,0 +1,26 @@
+type: http_request
+model: http_request
+id: rq_EXYT5b84gm
+createdAt: 2025-10-06T02:03:25.319253404
+updatedAt: 2025-10-06T13:42:48.326229571
+workspaceId: wk_f8RrNtfuFB
+folderId: fl_FrthLxx5qm
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+      "groupId": "0199b94e-4ac0-75fc-8488-5ab9c2880564"
+    }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: eFf2QGAu2B
+method: POST
+name: join category
+sortPriority: 250.0
+url: ${[ BACKEND_API ]}/categories/${[ CATEGORY_ID ]}/groups
+urlParameters: []

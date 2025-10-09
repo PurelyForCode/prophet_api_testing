@@ -1,0 +1,30 @@
+type: http_request
+model: http_request
+id: rq_KNDJcegZSg
+createdAt: 2025-10-06T01:37:24.657777387
+updatedAt: 2025-10-06T13:42:26.479976746
+workspaceId: wk_f8RrNtfuFB
+folderId: fl_RP8bAdzUd7
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: GET
+name: getAll
+sortPriority: 0.0
+url: ${[ BACKEND_API ]}/categories/${[ CATEGORY_ID ]}
+urlParameters:
+- enabled: true
+  name: archived
+  value: 'false'
+  id: qbAFNrkQDX
+- enabled: true
+  name: include
+  value: groups
+  id: fIxY2Z6zgP
+- enabled: true
+  name: ''
+  value: ''
+  id: vs8vdsCn8Q

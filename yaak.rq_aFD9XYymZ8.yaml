@@ -1,0 +1,26 @@
+type: http_request
+model: http_request
+id: rq_aFD9XYymZ8
+createdAt: 2025-10-06T13:31:18.677761104
+updatedAt: 2025-10-06T13:42:20.198946325
+workspaceId: wk_f8RrNtfuFB
+folderId: fl_rwTuDTHLAE
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+      "name":"changed"
+    }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: GSvkpt0Cgw
+method: PATCH
+name: update
+sortPriority: 3000.0
+url: ${[ BACKEND_API ]}/suppliers/${[ SUPPLIER_ID ]}
+urlParameters: []

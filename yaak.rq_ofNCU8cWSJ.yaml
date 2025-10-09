@@ -1,0 +1,26 @@
+type: http_request
+model: http_request
+id: rq_ofNCU8cWSJ
+createdAt: 2025-10-06T01:37:25.629339702
+updatedAt: 2025-10-06T13:42:30.912874158
+workspaceId: wk_f8RrNtfuFB
+folderId: fl_RP8bAdzUd7
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+      "name": "fish food"
+    }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: rye4Yib8R6
+method: POST
+name: create
+sortPriority: 2000.0
+url: ${[ BACKEND_API ]}/categories
+urlParameters: []

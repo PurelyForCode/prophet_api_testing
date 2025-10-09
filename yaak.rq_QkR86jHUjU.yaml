@@ -1,0 +1,18 @@
+type: http_request
+model: http_request
+id: rq_QkR86jHUjU
+createdAt: 2025-10-06T13:31:14.255269470
+updatedAt: 2025-10-06T13:42:22.100210366
+workspaceId: wk_f8RrNtfuFB
+folderId: fl_rwTuDTHLAE
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: DELETE
+name: delete
+sortPriority: 4000.0
+url: ${[ BACKEND_API ]}/suppliers/${[ SUPPLIER_ID ]}
+urlParameters: []

@@ -1,0 +1,18 @@
+type: http_request
+model: http_request
+id: rq_6eWEkANPBk
+createdAt: 2025-10-06T13:39:41.065265807
+updatedAt: 2025-10-06T13:40:34.227994695
+workspaceId: wk_f8RrNtfuFB
+folderId: fl_gkGhKWzgus
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: POST
+name: unarchive
+sortPriority: 7000.0
+url: ${[ BACKEND_API ]}/deliveries/${[ DELIVERY_ID ]}/unarchive
+urlParameters: []

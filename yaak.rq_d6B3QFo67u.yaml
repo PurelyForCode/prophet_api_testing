@@ -1,0 +1,18 @@
+type: http_request
+model: http_request
+id: rq_d6B3QFo67u
+createdAt: 2025-10-06T13:39:01.887512836
+updatedAt: 2025-10-06T13:40:34.129841468
+workspaceId: wk_f8RrNtfuFB
+folderId: fl_gkGhKWzgus
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: POST
+name: cancelled
+sortPriority: 4000.0
+url: ${[ BACKEND_API ]}/deliveries/${[ DELIVERY_ID ]}/cancelled
+urlParameters: []

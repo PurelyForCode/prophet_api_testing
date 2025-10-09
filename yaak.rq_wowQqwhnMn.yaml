@@ -1,0 +1,27 @@
+type: http_request
+model: http_request
+id: rq_wowQqwhnMn
+createdAt: 2025-10-05T12:05:46.170988074
+updatedAt: 2025-10-06T13:41:42.663307942
+workspaceId: wk_f8RrNtfuFB
+folderId: fl_HefAgZfo5s
+authentication: {}
+authenticationType: null
+body:
+  text: "{\n  \"name\": \"XL-red\",\n  \"safetyStock\": 10,\n  \"stock\": 50,\n  \"setting\": {\n    \"classification\": \"fast\",\n    \"serviceLevel\": 90,\n    \"fillRate\": 90, \n    \"safetyStockCalculationMethod\": \"dynamic\"\n  }\n}"
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: i8Ajt0NgUk
+method: PATCH
+name: update
+sortPriority: 0.004
+url: ${[ BACKEND_API ]}/groups/${[ GROUP_ID ]}/products/${[ PRODUCT_ID ]}
+urlParameters:
+- enabled: true
+  name: ''
+  value: ''
+  id: f8snQDczrb

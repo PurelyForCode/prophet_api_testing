@@ -1,0 +1,19 @@
+type: http_request
+model: http_request
+id: rq_8FXKHCAAau
+createdAt: 2025-10-06T13:28:43.630210568
+updatedAt: 2025-10-06T13:41:15.587919527
+workspaceId: wk_f8RrNtfuFB
+folderId: fl_QQm6euM6SK
+authentication: {}
+authenticationType: null
+body:
+  text: ''
+bodyType: null
+description: ''
+headers: []
+method: POST
+name: unarchive
+sortPriority: 968.751
+url: ${[ BACKEND_API ]}/groups/${[ GROUP_ID ]}/unarchive
+urlParameters: []

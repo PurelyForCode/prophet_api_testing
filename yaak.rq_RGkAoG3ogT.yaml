@@ -1,0 +1,18 @@
+type: http_request
+model: http_request
+id: rq_RGkAoG3ogT
+createdAt: 2025-10-06T13:38:54.680859105
+updatedAt: 2025-10-06T13:40:34.101767943
+workspaceId: wk_f8RrNtfuFB
+folderId: fl_gkGhKWzgus
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: POST
+name: arrived
+sortPriority: 3000.0
+url: ${[ BACKEND_API ]}/deliveries/${[ DELIVERY_ID ]}/arrived
+urlParameters: []

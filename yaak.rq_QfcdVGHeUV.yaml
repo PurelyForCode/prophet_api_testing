@@ -1,0 +1,24 @@
+type: http_request
+model: http_request
+id: rq_QfcdVGHeUV
+createdAt: 2025-10-04T05:58:21.432759978
+updatedAt: 2025-10-06T13:41:10.296590680
+workspaceId: wk_f8RrNtfuFB
+folderId: fl_QQm6euM6SK
+authentication: {}
+authenticationType: null
+body:
+  text: |
+    {"name": "FLAKY FISH FOOD"}
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: PPmbeghRvy
+method: PATCH
+name: update
+sortPriority: 937.5
+url: ${[ BACKEND_API ]}/groups/${[ GROUP_ID ]}
+urlParameters: []

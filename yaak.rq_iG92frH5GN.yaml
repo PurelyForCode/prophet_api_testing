@@ -1,0 +1,18 @@
+type: http_request
+model: http_request
+id: rq_iG92frH5GN
+createdAt: 2025-10-06T13:33:47.945284196
+updatedAt: 2025-10-06T13:42:11.252867459
+workspaceId: wk_f8RrNtfuFB
+folderId: fl_gkGhKWzgus
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: GET
+name: getOne
+sortPriority: 1000.0
+url: ${[ BACKEND_API ]}/deliveries/${[ DELIVERY_ID ]}
+urlParameters: []

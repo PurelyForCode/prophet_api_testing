@@ -1,0 +1,18 @@
+type: http_request
+model: http_request
+id: rq_WaykBc9mTi
+createdAt: 2025-10-06T01:37:26.802112739
+updatedAt: 2025-10-06T13:42:36.729991202
+workspaceId: wk_f8RrNtfuFB
+folderId: fl_RP8bAdzUd7
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: DELETE
+name: delete
+sortPriority: 4000.0
+url: ${[ BACKEND_API ]}/categories/${[ CATEGORY_ID ]}
+urlParameters: []

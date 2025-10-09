@@ -1,0 +1,28 @@
+type: http_request
+model: http_request
+id: rq_F5paTUnz5P
+createdAt: 2025-10-04T06:04:21.503234725
+updatedAt: 2025-10-06T13:41:04.973082269
+workspaceId: wk_f8RrNtfuFB
+folderId: fl_QQm6euM6SK
+authentication: {}
+authenticationType: null
+body:
+  text: |
+    {"name": "new"}
+bodyType: null
+description: ''
+headers: []
+method: GET
+name: getOne
+sortPriority: 750.0
+url: ${[ BACKEND_API ]}/groups/${[ GROUP_ID ]}
+urlParameters:
+- enabled: true
+  name: include
+  value: productSettings,productSales
+  id: cjrb8VE2Yc
+- enabled: true
+  name: ''
+  value: ''
+  id: JyAn5pg3n3

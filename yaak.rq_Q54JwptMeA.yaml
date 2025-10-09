@@ -1,0 +1,18 @@
+type: http_request
+model: http_request
+id: rq_Q54JwptMeA
+createdAt: 2025-10-06T13:33:57.140206415
+updatedAt: 2025-10-06T13:40:38.398218308
+workspaceId: wk_f8RrNtfuFB
+folderId: fl_gkGhKWzgus
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: PATCH
+name: update
+sortPriority: 5000.0
+url: ${[ BACKEND_API ]}/deliveries/${[ DELIVERY_ID ]}
+urlParameters: []

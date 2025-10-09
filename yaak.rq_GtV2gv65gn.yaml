@@ -1,0 +1,28 @@
+type: http_request
+model: http_request
+id: rq_GtV2gv65gn
+createdAt: 2025-10-06T00:52:33.643889093
+updatedAt: 2025-10-06T13:41:59.866003123
+workspaceId: wk_f8RrNtfuFB
+folderId: fl_P7E2DPhmTJ
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+      "status": "cancelled",
+      "quantity": 12,
+      "date": "2025-09-06"
+    }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: hsfEqUg08C
+method: PATCH
+name: update
+sortPriority: 3000.0
+url: ${[ BACKEND_API ]}/groups/${[ GROUP_ID ]}/products/${[ PRODUCT_ID ]}/sales/${[ SALE_ID ]}
+urlParameters: []

@@ -1,0 +1,18 @@
+type: http_request
+model: http_request
+id: rq_SZam5Anqvk
+createdAt: 2025-10-09T00:51:43.041694141
+updatedAt: 2025-10-09T01:22:24.486647141
+workspaceId: wk_f8RrNtfuFB
+folderId: fl_DPTSBx3pyb
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: GET
+name: healthcheck
+sortPriority: 499.9999
+url: ${[ FORECASTING_API ]}/healthcheck
+urlParameters: []

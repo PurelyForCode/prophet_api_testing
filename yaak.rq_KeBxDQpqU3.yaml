@@ -1,0 +1,18 @@
+type: http_request
+model: http_request
+id: rq_KeBxDQpqU3
+createdAt: 2025-10-06T00:52:47.938408099
+updatedAt: 2025-10-06T13:42:02.466272549
+workspaceId: wk_f8RrNtfuFB
+folderId: fl_P7E2DPhmTJ
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: DELETE
+name: archive
+sortPriority: 4000.0
+url: ${[ BACKEND_API ]}/groups/${[ GROUP_ID ]}/products/${[ PRODUCT_ID ]}/sales/${[ SALE_ID ]}
+urlParameters: []

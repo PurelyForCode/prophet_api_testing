@@ -1,0 +1,24 @@
+type: http_request
+model: http_request
+id: rq_WYtQGY3bva
+createdAt: 2025-09-23T06:33:13.805776642
+updatedAt: 2025-10-06T13:41:07.592372286
+workspaceId: wk_f8RrNtfuFB
+folderId: fl_QQm6euM6SK
+authentication: {}
+authenticationType: null
+body:
+  text: |
+    {"name": "Flaky Fish Food"}
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: PPmbeghRvy
+method: POST
+name: create
+sortPriority: 875.0
+url: ${[ BACKEND_API ]}/groups
+urlParameters: []

@@ -1,0 +1,30 @@
+type: http_request
+model: http_request
+id: rq_z3fiBcG2Le
+createdAt: 2025-10-05T12:04:41.976075195
+updatedAt: 2025-10-06T13:41:32.399016139
+workspaceId: wk_f8RrNtfuFB
+folderId: fl_HefAgZfo5s
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+      "name": "L-blue"
+    }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: i8Ajt0NgUk
+method: POST
+name: Partial Create Request
+sortPriority: 0.003
+url: ${[ BACKEND_API ]}/groups/${[ GROUP_ID ]}/products
+urlParameters:
+- enabled: true
+  name: ''
+  value: ''
+  id: f8snQDczrb

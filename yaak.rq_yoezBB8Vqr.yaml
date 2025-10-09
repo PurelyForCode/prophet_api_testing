@@ -1,0 +1,30 @@
+type: http_request
+model: http_request
+id: rq_yoezBB8Vqr
+createdAt: 2025-10-09T01:22:26.359032427
+updatedAt: 2025-10-09T07:58:03.298359001
+workspaceId: wk_f8RrNtfuFB
+folderId: fl_DPTSBx3pyb
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+      "accountId": "${[ ACCOUNT_ID ]}",
+      "dataDepth": 100,
+      "forecastStartDate": "2025-10-10",
+      "forecastEndDate": "2025-11-10",
+      "forecastingMethod": "prophet"
+    }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: BG34xp0FbY
+method: POST
+name: Forecast One
+sortPriority: 500.0009
+url: ${[ FORECASTING_API ]}/forecasts/${[ PRODUCT_ID ]}
+urlParameters: []

@@ -1,0 +1,18 @@
+type: http_request
+model: http_request
+id: rq_GUTyC2mzEC
+createdAt: 2025-10-06T02:03:31.966889011
+updatedAt: 2025-10-06T13:42:51.144567328
+workspaceId: wk_f8RrNtfuFB
+folderId: fl_FrthLxx5qm
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: DELETE
+name: leave category
+sortPriority: 500.0
+url: ${[ BACKEND_API ]}/categories/${[ CATEGORY_ID ]}/groups/${[ GROUP_ID ]}
+urlParameters: []

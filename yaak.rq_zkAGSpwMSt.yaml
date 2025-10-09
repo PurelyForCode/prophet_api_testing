@@ -1,0 +1,26 @@
+type: http_request
+model: http_request
+id: rq_zkAGSpwMSt
+createdAt: 2025-10-06T00:49:33.032170629
+updatedAt: 2025-10-06T13:41:53.557169579
+workspaceId: wk_f8RrNtfuFB
+folderId: fl_P7E2DPhmTJ
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: GET
+name: getOne
+sortPriority: 1000.0
+url: ${[ BACKEND_API ]}/groups/${[ GROUP_ID ]}/products/${[ PRODUCT_ID ]}/sales/${[ SALE_ID ]}
+urlParameters:
+- enabled: true
+  name: archived
+  value: 'false'
+  id: vkUqRjdkA9
+- enabled: true
+  name: ''
+  value: ''
+  id: c9FsNxYKQk

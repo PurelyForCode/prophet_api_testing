@@ -1,0 +1,18 @@
+type: http_request
+model: http_request
+id: rq_s5tyKhFsmJ
+createdAt: 2025-10-06T13:34:05.490211999
+updatedAt: 2025-10-06T13:40:34.186706991
+workspaceId: wk_f8RrNtfuFB
+folderId: fl_gkGhKWzgus
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: DELETE
+name: archive
+sortPriority: 6000.0
+url: ${[ BACKEND_API ]}/deliveries/${[ DELIVERY_ID ]}
+urlParameters: []
