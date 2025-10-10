@@ -1,0 +1,51 @@
+type: environment
+model: environment
+id: ev_PwXRQauME8
+workspaceId: wk_f8RrNtfuFB
+createdAt: 2025-10-10T13:40:03.157496778
+updatedAt: 2025-10-10T13:41:37.824701107
+name: Dev
+public: true
+base: false
+variables:
+- enabled: true
+  name: BACKEND_API
+  value: ''
+  id: x6JBnwUq7V
+- enabled: true
+  name: FORECASTING_API
+  value: ''
+  id: Z4FVCPd5BI
+- enabled: true
+  name: FRONTEND_API
+  value: ''
+  id: x2MC9P0tIV
+- enabled: true
+  name: GROUP_ID
+  value: ''
+  id: qiXSFN4X6p
+- enabled: true
+  name: PRODUCT_ID
+  value: ''
+  id: WkNR5zQ4hB
+- enabled: true
+  name: SALE_ID
+  value: ''
+  id: T8W3tVHvXM
+- enabled: true
+  name: DELIVERY_ID
+  value: ''
+  id: i5NicNnk22
+- enabled: true
+  name: ITEM_ID
+  value: ''
+  id: CVyamrrf4Y
+- enabled: true
+  name: SUPPLIER_ID
+  value: ''
+  id: H2kCAjZjCe
+- enabled: true
+  name: CATEGORY_ID
+  value: ''
+  id: 9yYIpaNAwN
+color: null
