@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_ofNCU8cWSJ
 createdAt: 2025-10-06T01:37:25.629339702
-updatedAt: 2025-10-06T13:42:30.912874158
+updatedAt: 2025-10-11T04:04:12.178109015
 workspaceId: wk_f8RrNtfuFB
 folderId: fl_RP8bAdzUd7
 authentication: {}
@@ -10,7 +10,7 @@ authenticationType: null
 body:
   text: |-
     {
-      "name": "fish food"
+      "name": "fish related"
     }
 bodyType: application/json
 description: ''

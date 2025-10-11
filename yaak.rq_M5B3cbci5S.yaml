@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_M5B3cbci5S
 createdAt: 2025-10-06T13:31:33.402003593
-updatedAt: 2025-10-06T13:42:13.577348206
+updatedAt: 2025-10-11T06:22:55.700298894
 workspaceId: wk_f8RrNtfuFB
 folderId: fl_rwTuDTHLAE
 authentication: {}
@@ -17,14 +17,30 @@ sortPriority: 0.0
 url: ${[ BACKEND_API ]}/suppliers
 urlParameters:
 - enabled: false
+  name: name
+  value: ''
+  id: 34v8afihSf
+- enabled: false
   name: archived
   value: 'true'
   id: WfijytEnNH
+- enabled: false
+  name: limit
+  value: ''
+  id: 560EnR3WBh
+- enabled: false
+  name: offset
+  value: ''
+  id: r72enuYtEW
+- enabled: false
+  name: sort
+  value: leadTime
+  id: gVA2jAvN8H
 - enabled: true
   name: include
-  value: groups
+  value: products
   id: 2GPJJ9CRe8
 - enabled: true
   name: ''
   value: ''
-  id: s2wkBtAJRG
+  id: yXdPZ3JqWi

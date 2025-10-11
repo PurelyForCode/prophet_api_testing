@@ -1,0 +1,27 @@
+type: http_request
+model: http_request
+id: rq_Bj5eThdoy7
+createdAt: 2025-10-11T04:01:35.880053501
+updatedAt: 2025-10-11T06:39:19.181915076
+workspaceId: wk_f8RrNtfuFB
+folderId: fl_LYreGRvEzE
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+      "max": 900,
+      "min": 100
+    }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: px3EYcb99b
+method: PATCH
+name: update supplied product
+sortPriority: 2000.0019
+url: ${[ BACKEND_API ]}/suppliers/${[ SUPPLIER_ID ]}/products/${[ PRODUCT_ID ]}
+urlParameters: []

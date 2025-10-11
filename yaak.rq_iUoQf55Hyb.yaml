@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_iUoQf55Hyb
 createdAt: 2025-10-06T13:31:29.227011715
-updatedAt: 2025-10-06T13:42:18.316011989
+updatedAt: 2025-10-11T03:07:40.739465602
 workspaceId: wk_f8RrNtfuFB
 folderId: fl_rwTuDTHLAE
 authentication: {}
@@ -10,7 +10,8 @@ authenticationType: null
 body:
   text: |-
     {
-      "name": "fish food"
+      "name": "Supplier X",
+      "leadTime": 7
     }
 bodyType: application/json
 description: ''

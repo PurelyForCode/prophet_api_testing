@@ -1,0 +1,18 @@
+type: http_request
+model: http_request
+id: rq_2Rx9nKNRyF
+createdAt: 2025-10-11T03:26:12.768700237
+updatedAt: 2025-10-11T04:02:01.607888151
+workspaceId: wk_f8RrNtfuFB
+folderId: fl_LYreGRvEzE
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: DELETE
+name: remove supplied product
+sortPriority: 1999.9999
+url: ${[ BACKEND_API ]}/suppliers/${[ SUPPLIER_ID ]}/products/${[ PRODUCT_ID ]}
+urlParameters: []

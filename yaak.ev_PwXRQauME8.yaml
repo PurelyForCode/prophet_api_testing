@@ -3,49 +3,49 @@ model: environment
 id: ev_PwXRQauME8
 workspaceId: wk_f8RrNtfuFB
 createdAt: 2025-10-10T13:40:03.157496778
-updatedAt: 2025-10-10T13:41:37.824701107
+updatedAt: 2025-10-11T06:21:52.588512324
 name: Dev
 public: true
 base: false
 variables:
 - enabled: true
   name: BACKEND_API
-  value: ''
+  value: http://localhost:8000
   id: x6JBnwUq7V
 - enabled: true
   name: FORECASTING_API
-  value: ''
+  value: asd
   id: Z4FVCPd5BI
 - enabled: true
   name: FRONTEND_API
-  value: ''
+  value: asd
   id: x2MC9P0tIV
 - enabled: true
   name: GROUP_ID
-  value: ''
+  value: 0199c7d3-6473-75d9-abd5-88e78d9ccf56
   id: qiXSFN4X6p
 - enabled: true
   name: PRODUCT_ID
-  value: ''
+  value: 0199c7d3-6473-75d9-abd5-8fa1bc2cf175
   id: WkNR5zQ4hB
 - enabled: true
   name: SALE_ID
-  value: ''
+  value: asd
   id: T8W3tVHvXM
 - enabled: true
   name: DELIVERY_ID
-  value: ''
+  value: asd
   id: i5NicNnk22
 - enabled: true
   name: ITEM_ID
-  value: ''
+  value: asd
   id: CVyamrrf4Y
 - enabled: true
   name: SUPPLIER_ID
-  value: ''
+  value: 0199d1ed-b67d-73e1-ba98-0625a284ed2a
   id: H2kCAjZjCe
 - enabled: true
   name: CATEGORY_ID
-  value: ''
+  value: 0199d170-c44b-7401-963c-f71ac10def63
   id: 9yYIpaNAwN
 color: null
