@@ -1,8 +1,8 @@
 type: http_request
 model: http_request
-id: rq_Q54JwptMeA
-createdAt: 2025-10-06T13:33:57.140206415
-updatedAt: 2025-10-11T11:30:28.666910593
+id: rq_KrzcpCQLF7
+createdAt: 2025-10-11T11:24:22.018970629
+updatedAt: 2025-10-11T11:25:24.192429774
 workspaceId: wk_f8RrNtfuFB
 folderId: fl_gkGhKWzgus
 authentication: {}
@@ -10,8 +10,8 @@ authenticationType: null
 body:
   text: |-
     {
-      "status": "completed",
-      "completedAt": "2025-10-12"
+      "requestedAt": "2025-10-01",
+      "scheduledArrivalDate": "2025-10-10"
     }
 bodyType: application/json
 description: ''
@@ -21,7 +21,7 @@ headers:
   value: application/json
   id: mE8KTs9VqV
 method: PATCH
-name: update to complete
-sortPriority: 5000.0
+name: update creation date
+sortPriority: 5000.002
 url: ${[ BACKEND_API ]}/deliveries/${[ DELIVERY_ID ]}
 urlParameters: []

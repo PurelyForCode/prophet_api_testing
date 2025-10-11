@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_KNDJcegZSg
 createdAt: 2025-10-06T01:37:24.657777387
-updatedAt: 2025-10-11T04:05:44.122894093
+updatedAt: 2025-10-11T06:45:05.287986740
 workspaceId: wk_f8RrNtfuFB
 folderId: fl_RP8bAdzUd7
 authentication: {}
@@ -13,7 +13,7 @@ description: ''
 headers: []
 method: GET
 name: getAll
-sortPriority: 0.0
+sortPriority: 1000.0
 url: ${[ BACKEND_API ]}/categories
 urlParameters:
 - enabled: false

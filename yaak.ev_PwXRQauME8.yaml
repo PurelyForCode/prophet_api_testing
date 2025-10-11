@@ -3,7 +3,7 @@ model: environment
 id: ev_PwXRQauME8
 workspaceId: wk_f8RrNtfuFB
 createdAt: 2025-10-10T13:40:03.157496778
-updatedAt: 2025-10-11T06:21:52.588512324
+updatedAt: 2025-10-11T14:04:44.335630316
 name: Dev
 public: true
 base: false
@@ -34,11 +34,11 @@ variables:
   id: T8W3tVHvXM
 - enabled: true
   name: DELIVERY_ID
-  value: asd
+  value: 0199d2d8-2920-70cc-ad0a-20ec437b6f37
   id: i5NicNnk22
 - enabled: true
   name: ITEM_ID
-  value: asd
+  value: 0199d311-1f5c-7058-a36c-ef1f35c3df43
   id: CVyamrrf4Y
 - enabled: true
   name: SUPPLIER_ID

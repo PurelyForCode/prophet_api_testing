@@ -2,15 +2,28 @@ type: http_request
 model: http_request
 id: rq_VRSq4JwCvb
 createdAt: 2025-10-06T13:35:00.998655367
-updatedAt: 2025-10-06T13:40:47.439984415
+updatedAt: 2025-10-11T11:32:56.725483823
 workspaceId: wk_f8RrNtfuFB
 folderId: fl_ZWq3e8i4TM
 authentication: {}
 authenticationType: null
-body: {}
-bodyType: null
+body:
+  text: |-
+    {
+      "items": [
+        {
+          "productId": "${[ PRODUCT_ID ]}",
+          "quantity": 100
+        }
+      ]
+    }
+bodyType: application/json
 description: ''
-headers: []
+headers:
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: 4EtsPRErVk
 method: POST
 name: create
 sortPriority: 2000.0

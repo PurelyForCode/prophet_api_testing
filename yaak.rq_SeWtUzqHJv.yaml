@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_SeWtUzqHJv
 createdAt: 2025-10-06T13:34:54.311911264
-updatedAt: 2025-10-06T13:40:21.023989863
+updatedAt: 2025-10-11T14:04:58.316981628
 workspaceId: wk_f8RrNtfuFB
 folderId: fl_ZWq3e8i4TM
 authentication: {}
@@ -12,7 +12,7 @@ bodyType: null
 description: ''
 headers: []
 method: DELETE
-name: archive
+name: Remove
 sortPriority: 4000.0
-url: ${[ BACKEND_API ]}/deliveries/${[ DELIVERY_ID ]}/items
+url: ${[ BACKEND_API ]}/deliveries/${[ DELIVERY_ID ]}/items/${[ ITEM_ID ]}
 urlParameters: []

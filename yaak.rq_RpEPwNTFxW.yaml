@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_RpEPwNTFxW
 createdAt: 2025-10-06T01:37:26.017689736
-updatedAt: 2025-10-06T13:42:34.488838878
+updatedAt: 2025-10-11T06:45:05.370191013
 workspaceId: wk_f8RrNtfuFB
 folderId: fl_RP8bAdzUd7
 authentication: {}
@@ -21,6 +21,6 @@ headers:
   id: GSvkpt0Cgw
 method: PATCH
 name: update
-sortPriority: 3000.0
+sortPriority: 4000.0
 url: ${[ BACKEND_API ]}/categories/${[ CATEGORY_ID ]}
 urlParameters: []

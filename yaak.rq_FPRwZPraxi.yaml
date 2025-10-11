@@ -2,17 +2,38 @@ type: http_request
 model: http_request
 id: rq_FPRwZPraxi
 createdAt: 2025-10-06T13:33:36.357706777
-updatedAt: 2025-10-06T13:42:08.365714912
+updatedAt: 2025-10-11T10:44:26.383050778
 workspaceId: wk_f8RrNtfuFB
 folderId: fl_gkGhKWzgus
 authentication: {}
 authenticationType: null
 body: {}
 bodyType: null
-description: ''
+description: |
+  possible status values: "completed","cancelled","delivering",
 headers: []
 method: GET
 name: getAll
 sortPriority: 0.0
 url: ${[ BACKEND_API ]}/deliveries
-urlParameters: []
+urlParameters:
+- enabled: false
+  name: status
+  value: completed
+  id: AeegWbJhhU
+- enabled: true
+  name: offset
+  value: '0'
+  id: ny5GxbE3kZ
+- enabled: true
+  name: limit
+  value: '1'
+  id: TMShq3em73
+- enabled: true
+  name: sort
+  value: scheduledArrivalDate
+  id: 9MrhuCnWk2
+- enabled: true
+  name: ''
+  value: ''
+  id: CXrvbStvig

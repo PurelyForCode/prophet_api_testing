@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_5MJjmo9X8M
 createdAt: 2025-10-06T13:34:43.554369946
-updatedAt: 2025-10-06T13:40:45.179722565
+updatedAt: 2025-10-11T11:44:53.656897489
 workspaceId: wk_f8RrNtfuFB
 folderId: fl_ZWq3e8i4TM
 authentication: {}
@@ -14,5 +14,5 @@ headers: []
 method: GET
 name: getOne
 sortPriority: 1000.0
-url: ${[ BACKEND_API ]}/deliveries/${[ DELIVERY_ID ]}/items/${[ DELIVERY_ITEM_ID ]}
+url: ${[ BACKEND_API ]}/deliveries/${[ DELIVERY_ID ]}/items/${[ ITEM_ID ]}
 urlParameters: []
