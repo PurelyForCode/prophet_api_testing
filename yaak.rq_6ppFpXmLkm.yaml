@@ -1,0 +1,26 @@
+type: http_request
+model: http_request
+id: rq_6ppFpXmLkm
+createdAt: 2025-10-18T10:22:38.046130415
+updatedAt: 2025-10-18T10:32:04.007262536
+workspaceId: wk_f8RrNtfuFB
+folderId: fl_38vtSZdDYJ
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: GET
+name: get account
+sortPriority: 500.0
+url: ${[ BACKEND_API ]}/accounts/${[ ACCOUNT_ID ]}
+urlParameters:
+- enabled: true
+  name: include
+  value: permissions
+  id: c6MT2PMWb4
+- enabled: true
+  name: ''
+  value: ''
+  id: rntTpNWpQk

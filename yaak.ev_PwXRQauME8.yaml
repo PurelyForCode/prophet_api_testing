@@ -3,7 +3,7 @@ model: environment
 id: ev_PwXRQauME8
 workspaceId: wk_f8RrNtfuFB
 createdAt: 2025-10-10T13:40:03.157496778
-updatedAt: 2025-10-18T08:04:03.511829833
+updatedAt: 2025-10-18T10:49:01.288568257
 name: Dev
 public: true
 base: false
@@ -54,10 +54,10 @@ variables:
   id: 9yYIpaNAwN
 - enabled: true
   name: PERMISSION_ID
-  value: ''
+  value: 0199f6ee-c0f7-72cf-b3d5-c243d263b7b6
   id: wmxXDaqD3n
 - enabled: true
   name: ACCOUNT_ID
-  value: ''
+  value: 0199f6ef-89f8-70dc-845a-825d2a10a84b
   id: 3jqSpdxxH0
 color: null

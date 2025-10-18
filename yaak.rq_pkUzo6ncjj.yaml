@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_pkUzo6ncjj
 createdAt: 2025-10-18T07:24:38.051133333
-updatedAt: 2025-10-18T08:01:47.910307907
+updatedAt: 2025-10-18T10:22:39.887049567
 workspaceId: wk_f8RrNtfuFB
 folderId: fl_38vtSZdDYJ
 authentication: {}
@@ -10,9 +10,9 @@ authenticationType: null
 body:
   text: |-
     {
-      "username": "johndoe",
+      "username": "johndoe1",
       "password": "SuperSecure123!",
-      "role": "staff"
+      "role": "store manager"
     }
 bodyType: application/json
 description: ''
@@ -23,6 +23,6 @@ headers:
   id: 8eHqkvbPyC
 method: POST
 name: create account
-sortPriority: 1000.0
+sortPriority: 3000.0
 url: ${[ BACKEND_API ]}/accounts
 urlParameters: []
