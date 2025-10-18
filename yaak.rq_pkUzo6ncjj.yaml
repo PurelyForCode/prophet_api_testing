@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_pkUzo6ncjj
 createdAt: 2025-10-18T07:24:38.051133333
-updatedAt: 2025-10-18T07:41:18.893029348
+updatedAt: 2025-10-18T08:01:47.910307907
 workspaceId: wk_f8RrNtfuFB
 folderId: fl_38vtSZdDYJ
 authentication: {}
@@ -10,7 +10,6 @@ authenticationType: null
 body:
   text: |-
     {
-      "accountId": "${[ ACCOUNT_ID ]}",
       "username": "johndoe",
       "password": "SuperSecure123!",
       "role": "staff"

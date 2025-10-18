@@ -3,7 +3,7 @@ model: environment
 id: ev_PwXRQauME8
 workspaceId: wk_f8RrNtfuFB
 createdAt: 2025-10-10T13:40:03.157496778
-updatedAt: 2025-10-18T07:25:25.453634774
+updatedAt: 2025-10-18T08:04:03.511829833
 name: Dev
 public: true
 base: false
@@ -21,7 +21,7 @@ variables:
   value: asd
   id: x2MC9P0tIV
 - enabled: true
-  name: ACCOUNT_ID
+  name: STORE_MANAGER_ID
   value: 01970607-cdb9-7209-bf1d-f1281b9cc056
   id: tG0sc04MvN
 - enabled: true
@@ -56,4 +56,8 @@ variables:
   name: PERMISSION_ID
   value: ''
   id: wmxXDaqD3n
+- enabled: true
+  name: ACCOUNT_ID
+  value: ''
+  id: 3jqSpdxxH0
 color: null
