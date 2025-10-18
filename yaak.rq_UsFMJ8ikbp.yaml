@@ -1,0 +1,18 @@
+type: http_request
+model: http_request
+id: rq_UsFMJ8ikbp
+createdAt: 2025-10-18T07:24:52.335023100
+updatedAt: 2025-10-18T07:25:40.319072827
+workspaceId: wk_f8RrNtfuFB
+folderId: fl_38vtSZdDYJ
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: DELETE
+name: ''
+sortPriority: 0.0028
+url: ${[ BACKEND_API ]}/accounts/${[ ACCOUNT_ID ]}/permissions/${[ PERMISSION_ID ]}
+urlParameters: []

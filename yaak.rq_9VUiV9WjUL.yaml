@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_9VUiV9WjUL
 createdAt: 2025-10-04T06:04:11.795090111
-updatedAt: 2025-10-11T04:03:18.567293970
+updatedAt: 2025-10-17T06:26:54.156755366
 workspaceId: wk_f8RrNtfuFB
 folderId: fl_QQm6euM6SK
 authentication: {}
@@ -20,7 +20,7 @@ url: ${[ BACKEND_API ]}/groups
 urlParameters:
 - enabled: false
   name: include
-  value: productSales,productSettings
+  value: productSales,productSettings,productInventoryStatus
   id: r9ymEMtKVP
 - enabled: false
   name: categoryId
@@ -33,4 +33,4 @@ urlParameters:
 - enabled: true
   name: ''
   value: ''
-  id: nTpinV9hf7
+  id: rr4IT0QUrP

@@ -3,7 +3,7 @@ model: environment
 id: ev_PwXRQauME8
 workspaceId: wk_f8RrNtfuFB
 createdAt: 2025-10-10T13:40:03.157496778
-updatedAt: 2025-10-11T14:04:44.335630316
+updatedAt: 2025-10-18T07:25:25.453634774
 name: Dev
 public: true
 base: false
@@ -20,6 +20,10 @@ variables:
   name: FRONTEND_API
   value: asd
   id: x2MC9P0tIV
+- enabled: true
+  name: ACCOUNT_ID
+  value: 01970607-cdb9-7209-bf1d-f1281b9cc056
+  id: tG0sc04MvN
 - enabled: true
   name: GROUP_ID
   value: 0199c7d3-6473-75d9-abd5-88e78d9ccf56
@@ -42,10 +46,14 @@ variables:
   id: CVyamrrf4Y
 - enabled: true
   name: SUPPLIER_ID
-  value: 0199d1ed-b67d-73e1-ba98-0625a284ed2a
+  value: 0199dc83-c323-724a-be69-00e8bb3762f5
   id: H2kCAjZjCe
 - enabled: true
   name: CATEGORY_ID
   value: 0199d170-c44b-7401-963c-f71ac10def63
   id: 9yYIpaNAwN
+- enabled: true
+  name: PERMISSION_ID
+  value: ''
+  id: wmxXDaqD3n
 color: null

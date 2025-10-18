@@ -1,0 +1,18 @@
+type: http_request
+model: http_request
+id: rq_UwC8PjgW2k
+createdAt: 2025-10-17T12:53:15.123563033
+updatedAt: 2025-10-17T12:53:19.327663697
+workspaceId: wk_f8RrNtfuFB
+folderId: fl_NAwLhwuzic
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: GET
+name: GetOne
+sortPriority: 0.0009
+url: ${[ BACKEND_API ]}/sales
+urlParameters: []

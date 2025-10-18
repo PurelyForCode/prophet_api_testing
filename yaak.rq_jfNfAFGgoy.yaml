@@ -1,0 +1,19 @@
+type: http_request
+model: http_request
+id: rq_jfNfAFGgoy
+createdAt: 2025-10-18T07:28:41.018638303
+updatedAt: 2025-10-18T07:29:13.187542438
+workspaceId: wk_f8RrNtfuFB
+folderId: fl_38vtSZdDYJ
+authentication: {}
+authenticationType: null
+body:
+  text: ''
+bodyType: null
+description: ''
+headers: []
+method: GET
+name: ''
+sortPriority: 0.0018
+url: ${[ BACKEND_API ]}/accounts/permissions
+urlParameters: []

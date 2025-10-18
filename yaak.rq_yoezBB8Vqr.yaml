@@ -2,19 +2,17 @@ type: http_request
 model: http_request
 id: rq_yoezBB8Vqr
 createdAt: 2025-10-09T01:22:26.359032427
-updatedAt: 2025-10-09T07:58:03.298359001
+updatedAt: 2025-10-17T06:19:10.089480453
 workspaceId: wk_f8RrNtfuFB
-folderId: fl_DPTSBx3pyb
+folderId: fl_kSYQoxPJXX
 authentication: {}
 authenticationType: null
 body:
   text: |-
     {
-      "accountId": "${[ ACCOUNT_ID ]}",
       "dataDepth": 100,
-      "forecastStartDate": "2025-10-10",
-      "forecastEndDate": "2025-11-10",
-      "forecastingMethod": "prophet"
+      "forecastStartDate": "2025-10-16",
+      "forecastEndDate": "2025-10-23"
     }
 bodyType: application/json
 description: ''
@@ -25,6 +23,6 @@ headers:
   id: BG34xp0FbY
 method: POST
 name: Forecast One
-sortPriority: 500.0009
-url: ${[ FORECASTING_API ]}/forecasts/${[ PRODUCT_ID ]}
+sortPriority: 0.0
+url: ${[ BACKEND_API ]}/forecasts/${[ PRODUCT_ID ]}
 urlParameters: []
