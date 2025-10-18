@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_pkUzo6ncjj
 createdAt: 2025-10-18T07:24:38.051133333
-updatedAt: 2025-10-18T07:27:10.011402374
+updatedAt: 2025-10-18T07:41:18.893029348
 workspaceId: wk_f8RrNtfuFB
 folderId: fl_38vtSZdDYJ
 authentication: {}
@@ -23,7 +23,7 @@ headers:
   value: application/json
   id: 8eHqkvbPyC
 method: POST
-name: ''
-sortPriority: 0.0007999999999999999
+name: create account
+sortPriority: 1000.0
 url: ${[ BACKEND_API ]}/accounts
 urlParameters: []

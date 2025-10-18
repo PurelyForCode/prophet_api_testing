@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_Tza7p5V4BZ
 createdAt: 2025-10-18T07:24:51.572968965
-updatedAt: 2025-10-18T07:25:00.415281301
+updatedAt: 2025-10-18T07:41:10.348063916
 workspaceId: wk_f8RrNtfuFB
 folderId: fl_38vtSZdDYJ
 authentication: {}
@@ -11,8 +11,8 @@ body: {}
 bodyType: null
 description: ''
 headers: []
-method: POST
-name: ''
-sortPriority: 0.0018
-url: ${[ BACKEND_API ]}/accounts/${[ ACCOUNT_ID ]}/permissions
+method: GET
+name: get permissions
+sortPriority: 0.0
+url: ${[ BACKEND_API ]}/accounts/permissions
 urlParameters: []

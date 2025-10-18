@@ -2,18 +2,25 @@ type: http_request
 model: http_request
 id: rq_jfNfAFGgoy
 createdAt: 2025-10-18T07:28:41.018638303
-updatedAt: 2025-10-18T07:29:13.187542438
+updatedAt: 2025-10-18T07:41:22.771348886
 workspaceId: wk_f8RrNtfuFB
 folderId: fl_38vtSZdDYJ
 authentication: {}
 authenticationType: null
 body:
-  text: ''
-bodyType: null
+  text: |-
+    {
+      "permission_id": "${[ PERMISSION_ID ]}"
+    }
+bodyType: application/json
 description: ''
-headers: []
-method: GET
-name: ''
-sortPriority: 0.0018
-url: ${[ BACKEND_API ]}/accounts/permissions
+headers:
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: UgIMBthTV2
+method: POST
+name: grant permission
+sortPriority: 2000.0
+url: ${[ BACKEND_API ]}/accounts/${[ ACCOUNT_ID ]}/permissions
 urlParameters: []
