@@ -2,9 +2,9 @@ type: http_request
 model: http_request
 id: rq_jfNfAFGgoy
 createdAt: 2025-10-18T07:28:41.018638303
-updatedAt: 2025-10-18T10:23:37.937289788
+updatedAt: 2025-10-19T06:37:35.128422723
 workspaceId: wk_f8RrNtfuFB
-folderId: fl_38vtSZdDYJ
+folderId: fl_9eg2dQnyGN
 authentication: {}
 authenticationType: null
 body:
@@ -21,6 +21,6 @@ headers:
   id: UgIMBthTV2
 method: POST
 name: grant permission
-sortPriority: 4000.0
+sortPriority: 500.0
 url: ${[ BACKEND_API ]}/accounts/${[ ACCOUNT_ID ]}/permissions
 urlParameters: []

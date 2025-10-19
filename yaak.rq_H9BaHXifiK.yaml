@@ -1,8 +1,8 @@
 type: http_request
 model: http_request
-id: rq_pkUzo6ncjj
-createdAt: 2025-10-18T07:24:38.051133333
-updatedAt: 2025-10-19T06:41:56.754427547
+id: rq_H9BaHXifiK
+createdAt: 2025-10-19T06:32:48.420612107
+updatedAt: 2025-10-19T06:37:43.913643704
 workspaceId: wk_f8RrNtfuFB
 folderId: fl_38vtSZdDYJ
 authentication: {}
@@ -10,8 +10,7 @@ authenticationType: null
 body:
   text: |-
     {
-      "username": "new",
-      "password": "SuperSecure123!",
+      "username": "changed",
       "role": "staff"
     }
 bodyType: application/json
@@ -20,9 +19,9 @@ headers:
 - enabled: true
   name: Content-Type
   value: application/json
-  id: 8eHqkvbPyC
-method: POST
-name: create account
-sortPriority: 2000.0
-url: ${[ BACKEND_API ]}/accounts
+  id: TXMPFi7HQf
+method: PATCH
+name: update account
+sortPriority: 5000.0
+url: ${[ BACKEND_API ]}/accounts/${[ ACCOUNT_ID ]}
 urlParameters: []

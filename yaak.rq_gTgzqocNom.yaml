@@ -1,8 +1,8 @@
 type: http_request
 model: http_request
-id: rq_pkUzo6ncjj
-createdAt: 2025-10-18T07:24:38.051133333
-updatedAt: 2025-10-19T06:41:56.754427547
+id: rq_gTgzqocNom
+createdAt: 2025-10-19T06:37:51.995509627
+updatedAt: 2025-10-19T06:45:55.382791322
 workspaceId: wk_f8RrNtfuFB
 folderId: fl_38vtSZdDYJ
 authentication: {}
@@ -10,9 +10,7 @@ authenticationType: null
 body:
   text: |-
     {
-      "username": "new",
-      "password": "SuperSecure123!",
-      "role": "staff"
+      "password": "changedpassword"
     }
 bodyType: application/json
 description: ''
@@ -20,9 +18,9 @@ headers:
 - enabled: true
   name: Content-Type
   value: application/json
-  id: 8eHqkvbPyC
-method: POST
-name: create account
-sortPriority: 2000.0
-url: ${[ BACKEND_API ]}/accounts
+  id: TXMPFi7HQf
+method: PATCH
+name: Change password
+sortPriority: 5000.001
+url: ${[ BACKEND_API ]}/accounts/${[ STORE_MANAGER_ID ]}/password
 urlParameters: []
