@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_wKA2LwWktf
 createdAt: 2025-10-06T13:29:02.524808445
-updatedAt: 2025-10-06T13:41:45.537389726
+updatedAt: 2025-10-20T05:29:11.667992306
 workspaceId: wk_f8RrNtfuFB
 folderId: fl_HefAgZfo5s
 authentication: {}
@@ -14,7 +14,7 @@ description: ''
 headers: []
 method: POST
 name: unarchive
-sortPriority: 0.006
+sortPriority: 8000.0
 url: ${[ BACKEND_API ]}/groups/${[ GROUP_ID ]}/products/${[ PRODUCT_ID ]}/unarchive
 urlParameters:
 - enabled: true

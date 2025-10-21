@@ -2,9 +2,9 @@ type: http_request
 model: http_request
 id: rq_SZam5Anqvk
 createdAt: 2025-10-09T00:51:43.041694141
-updatedAt: 2025-10-09T01:22:24.486647141
+updatedAt: 2025-10-20T05:33:16.844311333
 workspaceId: wk_f8RrNtfuFB
-folderId: fl_DPTSBx3pyb
+folderId: fl_kSYQoxPJXX
 authentication: {}
 authenticationType: null
 body: {}
@@ -13,6 +13,6 @@ description: ''
 headers: []
 method: GET
 name: healthcheck
-sortPriority: 499.9999
+sortPriority: 0.0
 url: ${[ FORECASTING_API ]}/healthcheck
 urlParameters: []

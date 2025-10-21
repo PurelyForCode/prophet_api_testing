@@ -2,13 +2,13 @@ type: http_request
 model: http_request
 id: rq_yoezBB8Vqr
 createdAt: 2025-10-09T01:22:26.359032427
-updatedAt: 2025-10-17T06:19:10.089480453
+updatedAt: 2025-10-20T05:33:16.874556906
 workspaceId: wk_f8RrNtfuFB
 folderId: fl_kSYQoxPJXX
 authentication: {}
 authenticationType: null
 body:
-  text: |-
+  text: |
     {
       "dataDepth": 100,
       "forecastStartDate": "2025-10-16",
@@ -23,6 +23,6 @@ headers:
   id: BG34xp0FbY
 method: POST
 name: Forecast One
-sortPriority: 0.0
-url: ${[ BACKEND_API ]}/forecasts/${[ PRODUCT_ID ]}
+sortPriority: 1000.0
+url: ${[ BACKEND_API ]}/groups/${[ GROUP_ID ]}/products/${[ PRODUCT_ID ]}/forecasts
 urlParameters: []

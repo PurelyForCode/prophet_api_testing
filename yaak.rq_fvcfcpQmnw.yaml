@@ -1,0 +1,40 @@
+type: http_request
+model: http_request
+id: rq_fvcfcpQmnw
+createdAt: 2025-10-20T05:29:37.142817040
+updatedAt: 2025-10-20T05:33:16.905078235
+workspaceId: wk_f8RrNtfuFB
+folderId: fl_kSYQoxPJXX
+authentication: {}
+authenticationType: null
+body:
+  text: |
+    {
+      "dataDepth": 100,
+      "forecastStartDate": "2025-10-16",
+      "forecastEndDate": "2025-10-23"
+    }
+bodyType: null
+description: ''
+headers: []
+method: GET
+name: Get All Forecasts
+sortPriority: 2000.0
+url: ${[ BACKEND_API ]}/groups/${[ GROUP_ID ]}/products/${[ PRODUCT_ID ]}/forecasts
+urlParameters:
+- enabled: true
+  name: include
+  value: entries
+  id: EwmmRTyAFw
+- enabled: true
+  name: sort
+  value: -date
+  id: TbHIBGK43x
+- enabled: false
+  name: latest
+  value: 'true'
+  id: GUt8XCa8zb
+- enabled: true
+  name: ''
+  value: ''
+  id: 2IgAmYAj9Y

@@ -3,7 +3,7 @@ model: environment
 id: ev_PwXRQauME8
 workspaceId: wk_f8RrNtfuFB
 createdAt: 2025-10-10T13:40:03.157496778
-updatedAt: 2025-10-19T13:42:46.543973341
+updatedAt: 2025-10-21T03:06:55.826073916
 name: Dev
 public: true
 base: false
@@ -38,7 +38,7 @@ variables:
   id: T8W3tVHvXM
 - enabled: true
   name: DELIVERY_ID
-  value: 0199d2d8-2920-70cc-ad0a-20ec437b6f37
+  value: 0199fd45-99c9-7156-a5bb-772cb71a345a
   id: i5NicNnk22
 - enabled: true
   name: ITEM_ID
@@ -46,7 +46,7 @@ variables:
   id: CVyamrrf4Y
 - enabled: true
   name: SUPPLIER_ID
-  value: 0199dc83-c323-724a-be69-00e8bb3762f5
+  value: 019a04b6-7fc4-76b6-bd02-79485a84e183
   id: H2kCAjZjCe
 - enabled: true
   name: CATEGORY_ID
@@ -60,4 +60,8 @@ variables:
   name: ACCOUNT_ID
   value: 0199fb34-0fd4-7398-b101-dba580a72ce7
   id: 3jqSpdxxH0
+- enabled: true
+  name: FORECAST_ID
+  value: 019a04b7-f226-75cd-b0fd-c1a69a949e0b
+  id: gAYzHUXYrR
 color: null

@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_wowQqwhnMn
 createdAt: 2025-10-05T12:05:46.170988074
-updatedAt: 2025-10-06T13:41:42.663307942
+updatedAt: 2025-10-20T05:29:11.612470111
 workspaceId: wk_f8RrNtfuFB
 folderId: fl_HefAgZfo5s
 authentication: {}
@@ -18,7 +18,7 @@ headers:
   id: i8Ajt0NgUk
 method: PATCH
 name: update
-sortPriority: 0.004
+sortPriority: 6000.0
 url: ${[ BACKEND_API ]}/groups/${[ GROUP_ID ]}/products/${[ PRODUCT_ID ]}
 urlParameters:
 - enabled: true

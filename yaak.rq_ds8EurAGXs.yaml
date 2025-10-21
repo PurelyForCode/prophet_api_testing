@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_ds8EurAGXs
 createdAt: 2025-10-05T07:23:09.911250696
-updatedAt: 2025-10-06T13:41:28.050437225
+updatedAt: 2025-10-20T05:29:11.550286245
 workspaceId: wk_f8RrNtfuFB
 folderId: fl_HefAgZfo5s
 authentication: {}
@@ -18,7 +18,7 @@ headers:
   id: i8Ajt0NgUk
 method: POST
 name: Full Create Request
-sortPriority: 0.002
+sortPriority: 4000.0
 url: ${[ BACKEND_API ]}/groups/${[ GROUP_ID ]}/products
 urlParameters:
 - enabled: true

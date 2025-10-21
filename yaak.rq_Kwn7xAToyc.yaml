@@ -1,0 +1,26 @@
+type: http_request
+model: http_request
+id: rq_Kwn7xAToyc
+createdAt: 2025-10-21T03:01:45.494784431
+updatedAt: 2025-10-21T07:21:02.523518261
+workspaceId: wk_f8RrNtfuFB
+folderId: fl_abmaCVtWVT
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+      "forecastId": "${[ FORECAST_ID ]}"
+    }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: dNcM9nCkX2
+method: POST
+name: Create Recommendation
+sortPriority: 1000.0
+url: ${[ BACKEND_API ]}/recommendations
+urlParameters: []

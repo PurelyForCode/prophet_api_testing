@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_zzR8ZRCvRj
 createdAt: 2025-10-05T12:13:50.033664948
-updatedAt: 2025-10-06T13:41:38.444230545
+updatedAt: 2025-10-20T05:29:11.640118789
 workspaceId: wk_f8RrNtfuFB
 folderId: fl_HefAgZfo5s
 authentication: {}
@@ -14,7 +14,7 @@ description: ''
 headers: []
 method: DELETE
 name: archive
-sortPriority: 0.005
+sortPriority: 7000.0
 url: ${[ BACKEND_API ]}/groups/${[ GROUP_ID ]}/products/0199b344-b1c3-714c-9329-347093dabb0c
 urlParameters:
 - enabled: true

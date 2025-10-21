@@ -1,0 +1,27 @@
+type: http_request
+model: http_request
+id: rq_Qb5CgDdX6E
+createdAt: 2025-10-21T07:21:15.499800456
+updatedAt: 2025-10-21T07:26:04.634539632
+workspaceId: wk_f8RrNtfuFB
+folderId: fl_Rb8ytz4Ci4
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+      "username": "superadmin",
+      "password": "veryveryhardpassword"
+    }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: 6hN7JgWBEB
+method: POST
+name: Login
+sortPriority: 999.9999
+url: ${[ BACKEND_API ]}/auth/login
+urlParameters: []

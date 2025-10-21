@@ -2,12 +2,12 @@ type: folder
 model: folder
 id: fl_kSYQoxPJXX
 createdAt: 2025-10-09T00:51:32.267074003
-updatedAt: 2025-10-09T00:51:32.267074486
+updatedAt: 2025-10-20T05:29:11.465837588
 workspaceId: wk_f8RrNtfuFB
-folderId: null
+folderId: fl_HefAgZfo5s
 authentication: {}
 authenticationType: null
 description: ''
 headers: []
 name: Forecasting
-sortPriority: -1759971100000.0
+sortPriority: 1000.0
