@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_Bj5eThdoy7
 createdAt: 2025-10-11T04:01:35.880053501
-updatedAt: 2025-10-11T06:39:19.181915076
+updatedAt: 2025-10-22T01:23:19.580112484
 workspaceId: wk_f8RrNtfuFB
 folderId: fl_LYreGRvEzE
 authentication: {}
@@ -11,7 +11,8 @@ body:
   text: |-
     {
       "max": 900,
-      "min": 100
+      "min": 100,
+      "isDefault": true
     }
 bodyType: application/json
 description: ''

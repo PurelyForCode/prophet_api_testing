@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_FPRwZPraxi
 createdAt: 2025-10-06T13:33:36.357706777
-updatedAt: 2025-10-11T10:44:26.383050778
+updatedAt: 2025-10-22T01:49:15.892986486
 workspaceId: wk_f8RrNtfuFB
 folderId: fl_gkGhKWzgus
 authentication: {}
@@ -21,11 +21,11 @@ urlParameters:
   name: status
   value: completed
   id: AeegWbJhhU
-- enabled: true
+- enabled: false
   name: offset
   value: '0'
   id: ny5GxbE3kZ
-- enabled: true
+- enabled: false
   name: limit
   value: '1'
   id: TMShq3em73
@@ -36,4 +36,4 @@ urlParameters:
 - enabled: true
   name: ''
   value: ''
-  id: CXrvbStvig
+  id: kUkHy6xde4

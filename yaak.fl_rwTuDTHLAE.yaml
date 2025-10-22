@@ -2,7 +2,7 @@ type: folder
 model: folder
 id: fl_rwTuDTHLAE
 createdAt: 2025-10-05T07:05:28.638331596
-updatedAt: 2025-10-05T07:05:28.638332814
+updatedAt: 2025-10-22T02:10:24.891940046
 workspaceId: wk_f8RrNtfuFB
 folderId: null
 authentication: {}
@@ -10,4 +10,4 @@ authenticationType: null
 description: ''
 headers: []
 name: Suppliers
-sortPriority: -1759647900000.0
+sortPriority: 5000.0

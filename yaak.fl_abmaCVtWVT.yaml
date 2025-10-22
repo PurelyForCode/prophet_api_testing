@@ -2,7 +2,7 @@ type: folder
 model: folder
 id: fl_abmaCVtWVT
 createdAt: 2025-10-17T06:19:40.164600941
-updatedAt: 2025-10-17T06:19:40.164601351
+updatedAt: 2025-10-22T02:10:24.827584600
 workspaceId: wk_f8RrNtfuFB
 folderId: null
 authentication: {}
@@ -10,4 +10,4 @@ authenticationType: null
 description: ''
 headers: []
 name: Inventory
-sortPriority: -1760681900000.0
+sortPriority: 3000.0

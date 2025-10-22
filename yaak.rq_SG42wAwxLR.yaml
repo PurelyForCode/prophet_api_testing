@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_SG42wAwxLR
 createdAt: 2025-10-06T00:34:27.091129862
-updatedAt: 2025-10-06T13:41:49.290666406
+updatedAt: 2025-10-21T10:33:33.021452643
 workspaceId: wk_f8RrNtfuFB
 folderId: fl_P7E2DPhmTJ
 authentication: {}
@@ -33,6 +33,10 @@ urlParameters:
   value: fa;
   id: vkUqRjdkA9
 - enabled: true
+  name: summed
+  value: 'true'
+  id: EiziPZic3h
+- enabled: true
   name: ''
   value: ''
-  id: riBdhkFNz5
+  id: m2Yb3e5a62

@@ -2,7 +2,7 @@ type: folder
 model: folder
 id: fl_NAwLhwuzic
 createdAt: 2025-10-17T12:52:36.086561120
-updatedAt: 2025-10-17T12:52:36.086562478
+updatedAt: 2025-10-22T02:10:24.794250518
 workspaceId: wk_f8RrNtfuFB
 folderId: null
 authentication: {}
@@ -10,4 +10,4 @@ authenticationType: null
 description: ''
 headers: []
 name: Sale
-sortPriority: -1760705500000.0
+sortPriority: 2000.0

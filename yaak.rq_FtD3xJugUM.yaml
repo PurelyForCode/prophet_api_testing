@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_FtD3xJugUM
 createdAt: 2025-10-06T00:49:48.224046143
-updatedAt: 2025-10-06T13:41:55.655212083
+updatedAt: 2025-10-22T03:59:22.534395398
 workspaceId: wk_f8RrNtfuFB
 folderId: fl_P7E2DPhmTJ
 authentication: {}
@@ -10,8 +10,8 @@ authenticationType: null
 body:
   text: |-
     {
-      "date": "2025-10-10",
-      "quantity": 7,
+      "date": "2025-10-21",
+      "quantity": 20,
       "status": "completed"
     }
 bodyType: application/json

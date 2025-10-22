@@ -2,7 +2,7 @@ type: folder
 model: folder
 id: fl_HefAgZfo5s
 createdAt: 2025-10-04T06:05:45.714962533
-updatedAt: 2025-10-05T07:18:27.000360002
+updatedAt: 2025-10-22T02:10:41.703200225
 workspaceId: wk_f8RrNtfuFB
 folderId: fl_QQm6euM6SK
 authentication: {}
@@ -10,4 +10,4 @@ authenticationType: null
 description: ''
 headers: []
 name: Products
-sortPriority: 1000.0
+sortPriority: 6000.0
