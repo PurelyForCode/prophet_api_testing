@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_mJp8nAmTV5
 createdAt: 2025-10-17T12:52:41.528134780
-updatedAt: 2025-10-19T13:43:07.384594900
+updatedAt: 2025-10-25T10:58:32.738919372
 workspaceId: wk_f8RrNtfuFB
 folderId: fl_NAwLhwuzic
 authentication: {}
@@ -15,4 +15,28 @@ method: GET
 name: Get
 sortPriority: -0.0001
 url: ${[ BACKEND_API ]}/sales
-urlParameters: []
+urlParameters:
+- enabled: false
+  name: offset
+  value: ''
+  id: ABsquJfiri
+- enabled: false
+  name: limit
+  value: ''
+  id: qW4N8m9NDS
+- enabled: false
+  name: sort
+  value: quantity,status,date
+  id: YxVAtcKqI6
+- enabled: false
+  name: date
+  value: ''
+  id: dJ6haSTQR7
+- enabled: false
+  name: summed
+  value: 'true'
+  id: a4mU9ZiJPw
+- enabled: true
+  name: ''
+  value: ''
+  id: qAygrvvFph

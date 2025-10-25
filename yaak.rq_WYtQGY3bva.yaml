@@ -2,14 +2,14 @@ type: http_request
 model: http_request
 id: rq_WYtQGY3bva
 createdAt: 2025-09-23T06:33:13.805776642
-updatedAt: 2025-10-22T02:10:41.583533963
+updatedAt: 2025-10-22T08:01:20.656481100
 workspaceId: wk_f8RrNtfuFB
 folderId: fl_QQm6euM6SK
 authentication: {}
 authenticationType: null
 body:
   text: |
-    {"name": "Flaky Fish Food"}
+    {"name": "new1"}
 bodyType: application/json
 description: ''
 headers:

@@ -3,7 +3,7 @@ model: environment
 id: ev_PwXRQauME8
 workspaceId: wk_f8RrNtfuFB
 createdAt: 2025-10-10T13:40:03.157496778
-updatedAt: 2025-10-22T02:01:44.839481148
+updatedAt: 2025-10-25T06:52:29.567630861
 name: Dev
 public: true
 base: false
@@ -26,15 +26,15 @@ variables:
   id: tG0sc04MvN
 - enabled: true
   name: GROUP_ID
-  value: 019a068e-0ebf-71eb-a6a1-8e9c0d6fa2b3
+  value: 0199c7d3-6473-75d9-abd5-88e78d9ccf56
   id: qiXSFN4X6p
 - enabled: true
   name: PRODUCT_ID
-  value: 019a068e-0ebf-71eb-a6a1-911ebec68c9b
+  value: 0199c7d3-6473-75d9-abd5-8fa1bc2cf175
   id: WkNR5zQ4hB
 - enabled: true
   name: SALE_ID
-  value: 0199fcb4-7816-74b4-84d7-9dc834cede10
+  value: 019a0b2c-d0ce-721e-865c-ad4e2887ab9f
   id: T8W3tVHvXM
 - enabled: true
   name: DELIVERY_ID
@@ -46,7 +46,7 @@ variables:
   id: CVyamrrf4Y
 - enabled: true
   name: SUPPLIER_ID
-  value: 019a0698-855e-72a8-a0c9-a47f5d2f732a
+  value: 019a1510-db6d-72c0-8c78-45fa63037486
   id: H2kCAjZjCe
 - enabled: true
   name: CATEGORY_ID
