@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_ESotGRbz9C
 createdAt: 2025-10-04T06:38:34.596477477
-updatedAt: 2025-10-25T06:52:46.675841264
+updatedAt: 2025-10-26T01:43:58.790149564
 workspaceId: wk_f8RrNtfuFB
 folderId: fl_HefAgZfo5s
 authentication: {}
@@ -16,7 +16,7 @@ name: getAll
 sortPriority: 1000.0
 url: ${[ BACKEND_API ]}/groups/${[ GROUP_ID ]}/products
 urlParameters:
-- enabled: true
+- enabled: false
   name: include
   value: sales,settings
   id: 7j2JRusFJ6
@@ -36,11 +36,11 @@ urlParameters:
   name: archived
   value: 'true'
   id: k65sGDCsdw
-- enabled: false
+- enabled: true
   name: name
   value: ''
   id: TnBqx0E56d
 - enabled: true
   name: ''
   value: ''
-  id: mm6aXEWP8M
+  id: k4shnb4SjN

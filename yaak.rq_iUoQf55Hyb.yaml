@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_iUoQf55Hyb
 createdAt: 2025-10-06T13:31:29.227011715
-updatedAt: 2025-10-11T03:07:40.739465602
+updatedAt: 2025-10-26T01:44:12.617124545
 workspaceId: wk_f8RrNtfuFB
 folderId: fl_rwTuDTHLAE
 authentication: {}
@@ -10,7 +10,7 @@ authenticationType: null
 body:
   text: |-
     {
-      "name": "Supplier X",
+      "name": "Supplier Y",
       "leadTime": 7
     }
 bodyType: application/json
