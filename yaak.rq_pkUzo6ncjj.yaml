@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_pkUzo6ncjj
 createdAt: 2025-10-18T07:24:38.051133333
-updatedAt: 2025-10-19T06:41:56.754427547
+updatedAt: 2025-10-27T01:44:33.846124830
 workspaceId: wk_f8RrNtfuFB
 folderId: fl_38vtSZdDYJ
 authentication: {}
@@ -11,7 +11,7 @@ body:
   text: |-
     {
       "username": "new",
-      "password": "SuperSecure123!",
+      "password": "password",
       "role": "staff"
     }
 bodyType: application/json

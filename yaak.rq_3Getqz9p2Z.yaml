@@ -1,18 +1,14 @@
 type: http_request
 model: http_request
-id: rq_Qb5CgDdX6E
-createdAt: 2025-10-21T07:21:15.499800456
-updatedAt: 2025-10-27T01:44:45.167391847
+id: rq_3Getqz9p2Z
+createdAt: 2025-10-27T01:43:53.898214034
+updatedAt: 2025-10-27T01:44:16.664037459
 workspaceId: wk_f8RrNtfuFB
 folderId: fl_Rb8ytz4Ci4
 authentication: {}
 authenticationType: null
 body:
-  text: |-
-    {
-      "username": "new",
-      "password": "password"
-    }
+  text: ''
 bodyType: application/json
 description: ''
 headers:
@@ -20,8 +16,8 @@ headers:
   name: Content-Type
   value: application/json
   id: 6hN7JgWBEB
-method: POST
-name: Login
-sortPriority: 999.9999
-url: ${[ BACKEND_API ]}/auth/login
+method: GET
+name: Session Check
+sortPriority: 1000.0009
+url: ${[ BACKEND_API ]}/auth/session
 urlParameters: []
