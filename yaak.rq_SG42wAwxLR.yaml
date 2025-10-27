@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_SG42wAwxLR
 createdAt: 2025-10-06T00:34:27.091129862
-updatedAt: 2025-10-21T10:33:33.021452643
+updatedAt: 2025-10-27T08:18:00.563651300
 workspaceId: wk_f8RrNtfuFB
 folderId: fl_P7E2DPhmTJ
 authentication: {}
@@ -16,7 +16,7 @@ name: getAll
 sortPriority: 0.0
 url: ${[ BACKEND_API ]}/groups/${[ GROUP_ID ]}/products/${[ PRODUCT_ID ]}/sales
 urlParameters:
-- enabled: true
+- enabled: false
   name: sort
   value: -date
   id: N5c0g94MRq
@@ -32,11 +32,15 @@ urlParameters:
   name: archived
   value: fa;
   id: vkUqRjdkA9
-- enabled: true
+- enabled: false
   name: summed
   value: 'true'
   id: EiziPZic3h
 - enabled: true
+  name: status
+  value: pending
+  id: GXmDbDCXTB
+- enabled: true
   name: ''
   value: ''
-  id: m2Yb3e5a62
+  id: 0MdHmBg0bv
