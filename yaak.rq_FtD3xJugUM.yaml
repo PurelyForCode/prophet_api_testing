@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_FtD3xJugUM
 createdAt: 2025-10-06T00:49:48.224046143
-updatedAt: 2025-10-22T03:59:22.534395398
+updatedAt: 2025-10-29T04:32:47.984443669
 workspaceId: wk_f8RrNtfuFB
 folderId: fl_P7E2DPhmTJ
 authentication: {}
@@ -23,7 +23,7 @@ headers:
   id: wCJndgFAwH
 method: POST
 name: create
-sortPriority: 2000.0
+sortPriority: 3000.0
 url: ${[ BACKEND_API ]}/groups/${[ GROUP_ID ]}/products/${[ PRODUCT_ID ]}/sales
 urlParameters:
 - enabled: true

@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_UwC8PjgW2k
 createdAt: 2025-10-17T12:53:15.123563033
-updatedAt: 2025-10-25T11:12:52.560727260
+updatedAt: 2025-10-29T04:32:35.149730859
 workspaceId: wk_f8RrNtfuFB
 folderId: fl_NAwLhwuzic
 authentication: {}
@@ -13,7 +13,7 @@ description: ''
 headers: []
 method: GET
 name: GetOne
-sortPriority: 0.0009
+sortPriority: 2000.0
 url: ${[ BACKEND_API ]}/sales/${[ SALE_ID ]}
 urlParameters:
 - enabled: true

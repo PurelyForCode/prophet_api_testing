@@ -1,8 +1,8 @@
 type: http_request
 model: http_request
-id: rq_SG42wAwxLR
-createdAt: 2025-10-06T00:34:27.091129862
-updatedAt: 2025-10-29T04:30:04.031094644
+id: rq_mGtpRT7jt2
+createdAt: 2025-10-29T04:29:53.168444718
+updatedAt: 2025-10-29T04:30:04.001844955
 workspaceId: wk_f8RrNtfuFB
 folderId: fl_P7E2DPhmTJ
 authentication: {}
@@ -12,9 +12,9 @@ bodyType: null
 description: ''
 headers: []
 method: GET
-name: getAll
-sortPriority: 1000.0
-url: ${[ BACKEND_API ]}/groups/${[ GROUP_ID ]}/products/${[ PRODUCT_ID ]}/sales
+name: count
+sortPriority: 0.0
+url: ${[ BACKEND_API ]}/groups/${[ GROUP_ID ]}/products/${[ PRODUCT_ID ]}/sales/count
 urlParameters:
 - enabled: false
   name: sort

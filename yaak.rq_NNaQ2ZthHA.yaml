@@ -1,8 +1,8 @@
 type: http_request
 model: http_request
-id: rq_mJp8nAmTV5
-createdAt: 2025-10-17T12:52:41.528134780
-updatedAt: 2025-10-29T04:32:35.120561366
+id: rq_NNaQ2ZthHA
+createdAt: 2025-10-29T04:24:45.002876215
+updatedAt: 2025-10-29T04:32:35.089096629
 workspaceId: wk_f8RrNtfuFB
 folderId: fl_NAwLhwuzic
 authentication: {}
@@ -12,9 +12,9 @@ bodyType: null
 description: ''
 headers: []
 method: GET
-name: Get
-sortPriority: 1000.0
-url: ${[ BACKEND_API ]}/sales
+name: Count
+sortPriority: 0.0
+url: ${[ BACKEND_API ]}/sales/count
 urlParameters:
 - enabled: false
   name: offset

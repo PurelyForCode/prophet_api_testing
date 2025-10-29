@@ -1,8 +1,8 @@
 type: http_request
 model: http_request
-id: rq_M5B3cbci5S
-createdAt: 2025-10-06T13:31:33.402003593
-updatedAt: 2025-10-29T04:39:40.362998109
+id: rq_gh4VABGuhR
+createdAt: 2025-10-29T04:39:33.582877006
+updatedAt: 2025-10-29T04:41:18.000441537
 workspaceId: wk_f8RrNtfuFB
 folderId: fl_rwTuDTHLAE
 authentication: {}
@@ -12,11 +12,11 @@ bodyType: null
 description: ''
 headers: []
 method: GET
-name: count
-sortPriority: 0.0
-url: ${[ BACKEND_API ]}/suppliers/count
+name: getAll
+sortPriority: 0.001
+url: ${[ BACKEND_API ]}/suppliers
 urlParameters:
-- enabled: true
+- enabled: false
   name: name
   value: y
   id: 34v8afihSf
@@ -36,11 +36,11 @@ urlParameters:
   name: sort
   value: leadTime
   id: gVA2jAvN8H
-- enabled: true
+- enabled: false
   name: include
   value: products
   id: 2GPJJ9CRe8
 - enabled: true
   name: ''
   value: ''
-  id: QesUQVvMgH
+  id: rDhm5s97DG

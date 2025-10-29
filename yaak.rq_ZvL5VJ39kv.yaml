@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_ZvL5VJ39kv
 createdAt: 2025-10-06T13:29:49.463995505
-updatedAt: 2025-10-06T13:29:59.789875590
+updatedAt: 2025-10-29T04:30:04.179535677
 workspaceId: wk_f8RrNtfuFB
 folderId: fl_P7E2DPhmTJ
 authentication: {}
@@ -13,6 +13,6 @@ description: ''
 headers: []
 method: POST
 name: Unarchive
-sortPriority: 4000.001
+sortPriority: 6000.0
 url: ${[ BACKEND_API ]}/groups/${[ GROUP_ID ]}/products/${[ PRODUCT_ID ]}/sales/${[ SALE_ID ]}
 urlParameters: []

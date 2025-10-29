@@ -1,8 +1,8 @@
 type: http_request
 model: http_request
-id: rq_9VUiV9WjUL
-createdAt: 2025-10-04T06:04:11.795090111
-updatedAt: 2025-10-29T04:35:55.096485931
+id: rq_HS2tpbC8DT
+createdAt: 2025-10-29T04:35:47.885567358
+updatedAt: 2025-10-29T04:35:47.885567843
 workspaceId: wk_f8RrNtfuFB
 folderId: fl_QQm6euM6SK
 authentication: {}
@@ -14,9 +14,9 @@ bodyType: null
 description: ''
 headers: []
 method: GET
-name: count
-sortPriority: 0.0
-url: ${[ BACKEND_API ]}/groups/count
+name: get
+sortPriority: 0.001
+url: ${[ BACKEND_API ]}/groups
 urlParameters:
 - enabled: false
   name: include
