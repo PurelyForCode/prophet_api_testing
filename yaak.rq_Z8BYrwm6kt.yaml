@@ -1,0 +1,18 @@
+type: http_request
+model: http_request
+id: rq_Z8BYrwm6kt
+createdAt: 2025-10-31T06:01:48.355846169
+updatedAt: 2025-10-31T06:01:59.053970971
+workspaceId: wk_f8RrNtfuFB
+folderId: fl_3EkVx3fgkz
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: GET
+name: ''
+sortPriority: 1999.9998
+url: ${[ FORECASTING_API ]}/forecasts
+urlParameters: []
